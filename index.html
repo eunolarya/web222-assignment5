@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fantasy Bookstore</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(120deg, #8e44ad, #3498db);
+        color: #fff;
+      }
+      header {
+        background-color: rgba(0, 0, 0, 0.25);
+        padding: 25px 0 20px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      header h1 {
+        font-size: 3em;
+        margin: 0;
+        color: #ffeaa7;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 5px #00000055;
+      }
+
+      nav {
+        margin-top: 20px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 0 15px;
+        padding: 10px 20px;
+        font-weight: bold;
+        font-size: 1rem;
+        color: #ffffff;
+        background: linear-gradient(145deg, #6c5ce7, #a29bfe);
+        border-radius: 25px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      nav a:hover {
+        background: linear-gradient(145deg, #fd79a8, #e84393);
+        color: #fff;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+        padding: 40px;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .card {
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(6px);
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+
+      .card:hover {
+        transform: scale(1.03);
+      }
+
+      .card img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        border-bottom: 2px solid #fff;
+      }
+
+      .card-title {
+        padding: 15px;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Fantasy Bookstore</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="honesty.html">Honesty</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card-grid">
+        <div class="card">
+          <img src="hp1.jpg" alt="Philosopher’s Stone" />
+          <div class="card-title">Harry Potter and the Philosopher’s Stone</div>
+        </div>
+        <div class="card">
+          <img src="hp2.jpg" alt="Chamber of Secrets" />
+          <div class="card-title">Harry Potter and the Chamber of Secrets</div>
+        </div>
+        <div class="card">
+          <img src="hp3.jpg" alt="Prisoner of Azkaban" />
+          <div class="card-title">Harry Potter and the Prisoner of Azkaban</div>
+        </div>
+        <div class="card">
+          <img src="hp4.jpg" alt="Goblet of Fire" />
+          <div class="card-title">Harry Potter and the Goblet of Fire</div>
+        </div>
+        <div class="card">
+          <img src="hp5.jpg" alt="Order of the Phoenix" />
+          <div class="card-title">Harry Potter and the Order of the Phoenix</div>
+        </div>
+        <div class="card">
+          <img src="hp6.jpg" alt="Half-Blood Prince" />
+          <div class="card-title">Harry Potter and the Half-Blood Prince</div>
+        </div>
+        <div class="card">
+          <img src="hp7.jpg" alt="Deathly Hallows" />
+          <div class="card-title">Harry Potter and the Deathly Hallows</div>
+        </div>
+        <div class="card">
+          <img src="lotr1.jpg" alt="Fellowship of the Ring" />
+          <div class="card-title">The Fellowship of the Ring</div>
+        </div>
+        <div class="card">
+          <img src="lotr2.jpg" alt="The Two Towers" />
+          <div class="card-title">The Two Towers</div>
+        </div>
+        <div class="card">
+          <img src="lotr3.jpg" alt="The Return of the King" />
+          <div class="card-title">The Return of the King</div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Ariana Hajizadeh, July 2025</p>
+    </footer>
+  </body>
+</html>
